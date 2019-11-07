@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Маргарита Биктимирова](https://up.htmlacademy.ru/adaptive/18/user/1116499).
-* Наставник: `Неизвестно`.
+* Наставник: Ольга Вадясова.
 
 ---
 
