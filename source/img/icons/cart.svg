@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="19.235" viewBox="0 0 20 19.235">
+  <g id="cart.svg" transform="translate(-260.371 -373.687)" opacity="0.2">
+    <g id="Shop">
+      <g id="bag2">
+        <path id="Path_11" data-name="Path 11" d="M278.919,381.974l-2.85,10.2h-11.4l-2.85-10.2" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.495"/>
+        <line id="Line_5" data-name="Line 5" x1="3.562" y2="7.286" transform="translate(264.672 374.687)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.495"/>
+        <line id="Line_6" data-name="Line 6" x2="3.562" y2="7.286" transform="translate(272.508 374.687)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.495"/>
+        <line id="Line_7" data-name="Line 7" x2="18.522" transform="translate(261.11 381.974)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.478"/>
+        <line id="Line_8" data-name="Line 8" x2="15.672" transform="translate(262.535 386.345)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.478"/>
+      </g>
+    </g>
+  </g>
+</svg>
