@@ -1,0 +1,17 @@
+.category-list {
+  @include reset-list;
+}
+
+.category-list__item {
+  color: #FFFFFF;
+  font-size: 19px;
+  line-height: 24px;
+}
+
+.category-list li:nth-child(1) {
+  background-color: $color-light;
+}
+
+.category-list li:nth-child(2) {
+  background-color: $color-dark;
+}

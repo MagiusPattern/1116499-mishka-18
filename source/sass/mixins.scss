@@ -1,0 +1,25 @@
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin reset-text {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin reset-fieldset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin h1 {
+  font-size: 27px;
+}
+
+@mixin h2 {
+  font-size: 25px;
+}

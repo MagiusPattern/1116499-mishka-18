@@ -1,0 +1,17 @@
+.contacts__title {
+  font-size: 18px;
+}
+
+.features-list__item {
+  font-size: 15px;
+  font-style: normal;
+}
+
+.address {
+  @include reset-text;
+}
+
+.contacts__wrapper {
+  background-color: #DFDFDF;
+  /*background-image*/
+}

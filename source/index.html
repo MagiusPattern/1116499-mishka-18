@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Главная | Интернет-магазин игрушек ручной работы «Мишка»</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="page-header">
@@ -137,7 +138,7 @@
           <h2 class="reviews__title">Отзывы</h2>
           <blockquote class="reviews__item">
             <p class="reviews__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
-            <cite class="reviews__author-name">Анастасия Красильникова @misssssiskras</cite>
+            <cite class="reviews__author-name"><strong>Анастасия Красильникова</strong> @misssssiskras</cite>
           </blockquote>
           <button class="reviews__prev" type="button" aria-label="Предыдущий отзыв">
             <!--стрелка влево-->
@@ -150,25 +151,24 @@
       </section>
       <section class="contacts">
         <h2 class="contacts__title">Контакты</h2>
-        <ul class="contacts__list-features features-list">
-          <li class="features-list__item">
-            <p>e-mail:</p>
-          </li>
-          <li class="features-list__item">
-            <p>адрес:</p>
-          </li>
-        </ul>
-        <ul class="contacts__list-values values-list">
-          <li class="values-list__item">
-            <a href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
-          </li>
-          <li class="values-list__item">
-            <p class="address">г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</p>
-          </li>
-        </ul>
+        <table class="contacts__list features-list">
+          <tr>
+            <td class="features-list__item">e-mail:</td>
+            <td class="features-list__item">
+              <a href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
+            </td>
+          </tr>
+          <tr>
+            <td class="features-list__item">адрес:</td>
+            <td class="features-list__item">
+              <p class="address">г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</p>
+            </td>
+          </tr>
+        </table>
         <div class="contacts__wrapper">
           <img class="contacts__map" src="img/map-mobile.png" width="322" height="457" alt="Интернет-магазин «Мишка» на карте">
-        <a class="contacts__write button" href="#">Напишите нам</a>
+          <a class="contacts__write button" href="#">Напишите нам</a>
+        </div>
       </section>
     </main>
 

@@ -1,0 +1,11 @@
+.video__title {
+  line-height: 24px;
+  background-color: $color-light;
+}
+
+.video__details {
+  @include reset-text;
+  font-size: 13px;
+  line-height: 24px;
+  font-style: normal;
+}
