@@ -7,8 +7,9 @@
 }
 
 .catalog__image {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
 }
+
 .catalog__details,
 .catalog__price {
   @include reset-text;
