@@ -2,3 +2,10 @@
   width: 320px;
   margin: 0 auto;
 }
+
+.page-main__title {
+  @include h1;
+
+  background-color: #fafafa;
+  /*background-image*/
+}

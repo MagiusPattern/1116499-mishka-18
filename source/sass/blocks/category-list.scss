@@ -8,10 +8,12 @@
   line-height: 24px;
 }
 
-.category-list li:nth-child(1) {
-  background-color: $color-light;
-}
+.category-list__link {
+  &--interior {
+    background-color: $tiffany-light;
+  }
 
-.category-list li:nth-child(2) {
-  background-color: $color-dark;
+  &--toys {
+    background-color: $tiffany-dark;
+  }
 }

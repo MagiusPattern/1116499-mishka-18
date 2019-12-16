@@ -2,16 +2,22 @@
   font-size: 18px;
 }
 
-.features-list__item {
-  font-size: 15px;
-  font-style: normal;
+.features-list,
+.values-list {
+  @include reset-list;
 }
 
-.address {
-  @include reset-text;
+.features-list__item,
+.values-list__item {
+  font-size: 15px;
+  font-style: normal;
 }
 
 .contacts__wrapper {
   background-color: #dfdfdf;
   /*background-image*/
+}
+
+.contacts__write-button {
+  font-size: 18px;
 }

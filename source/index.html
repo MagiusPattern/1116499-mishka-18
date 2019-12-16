@@ -47,8 +47,8 @@
         <div class="page-main__wrapper">
           <ul class="page-main__list category-list">
             <li class="category-list__item">
-              <div class="page-main__interior">
-                <a href="#">Предметы интерьера</a>
+              <a class="category-list__link--interior" href="#">
+                <span>Предметы интерьера</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="62" viewBox="0 0 40 62">
                   <g id="interior.svg" transform="translate(-244 -701)" opacity="0.502">
                     <g id="interior.svg-2" data-name="interior.svg" transform="translate(244 701)">
@@ -63,15 +63,15 @@
                     <path id="Color_Overlay" data-name="Color Overlay" d="M270.861,763h-16.01v-2.213a2.223,2.223,0,0,1,2.287-2.216h13.723a2.224,2.224,0,0,1,2.288,2.216V763Zm-10.292-6.643a1.108,1.108,0,1,1,0-2.215h6.862a1.108,1.108,0,1,1,0,2.215Zm.9-4.428c-.669-3.605-1.854-6.989-2.345-9.607a7.918,7.918,0,0,1-.026-3.614,4.028,4.028,0,0,1,1.929-2.279h5.964A4.07,4.07,0,0,1,269,738.717a7.608,7.608,0,0,1-.04,3.593c-.518,2.615-1.765,6-2.457,9.619Zm1.39-17.784v-3.706c.2-.149.41-.314.567-.407a1.271,1.271,0,0,1,.576-.212,2.623,2.623,0,0,1,1.143.619v3.706Zm13.607-4.572a7.585,7.585,0,0,1-.867-.626,3.787,3.787,0,0,0-5.812-.005,1.656,1.656,0,0,1-2.882.01,4.527,4.527,0,0,0-2.9-1.345,3.2,3.2,0,0,0-.924.134,5.807,5.807,0,0,0-1.979,1.211,7.345,7.345,0,0,1-.868.622,1.242,1.242,0,0,1-.576.213,3.159,3.159,0,0,1-1.443-.835,3.8,3.8,0,0,0-5.8.005,3.144,3.144,0,0,1-1.44.83h0a3.134,3.134,0,0,1-1.439-.842,4.486,4.486,0,0,0-2.908-1.367,5.141,5.141,0,0,0-2.618.986l6.04-25.349h11.673a2.289,2.289,0,0,1,4.575,0h11.668L284,728.554a5.115,5.115,0,0,0-2.617-.991,4.488,4.488,0,0,0-2.912,1.375,3.105,3.105,0,0,1-1.435.849A1.225,1.225,0,0,1,276.464,729.573Z" fill="#149080"/>
                   </g>
                 </svg>
-              </div>
+              </a>
             </li>
             <li class="category-list__item">
-              <div class="page-main__toys">
-                <a href="#">Детские игрушки</a>
+              <a class="category-list__link--toys"href="#">
+                <span>Детские игрушки</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
                   <path id="Color_Overlay" data-name="Color Overlay" d="M265.557,838.709,293,822.669v23.29L265.557,862ZM233,845.96v-23.5L260.439,838.5V862Zm2.646-27.937,5.953-3.473v2.435c0,1.829,3.46,3.311,7.727,3.311s7.726-1.482,7.726-3.311V812.9h-.022c-.258,1.725-3.605,3.092-7.7,3.092-4.268,0-7.727-1.484-7.727-3.306s3.46-3.309,7.727-3.309c.356,0,.706.015,1.053.032l4.808-2.81v3.007a1.815,1.815,0,0,0,.565,1.244,3.988,3.988,0,0,1,.732.589,12.58,12.58,0,0,0,6.433,1.476c4.268,0,7.722-1.482,7.722-3.309V806.5l4.975,2.906c.327-.02.663-.03,1-.03,4.272,0,7.729,1.478,7.729,3.309s-3.457,3.306-7.729,3.306c-4.1,0-7.443-1.367-7.7-3.092h-.024v4.084c0,1.829,3.461,3.311,7.727,3.311s7.73-1.482,7.73-3.311v-2.469l6.183,3.611-27.351,15.985Zm19.6,6.726c0,1.827,3.46,3.307,7.729,3.307s7.727-1.48,7.727-3.307v-4.086h-.022c-.262,1.726-3.6,3.1-7.7,3.1s-7.446-1.37-7.706-3.1h-.023Zm-.06-19.44c0-1.827,3.46-3.308,7.729-3.308s7.723,1.481,7.723,3.308-3.454,3.306-7.723,3.306S255.187,807.135,255.187,805.308Z" transform="translate(-233 -802)" fill="#149080"/>
                 </svg>
-              </div>
+              </a>
             </li>
           </ul>
         </div>
@@ -98,7 +98,7 @@
           </tr>
         </table>
         <p class="week-product__price">Цена: 990 руб.</p>
-        <button class="week-product__button" type="button">Заказать</button>
+        <button class="week-product__button button" type="button">Заказать</button>
       </article>
 
       <section class="advantages">
@@ -140,34 +140,36 @@
             <p class="reviews__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
             <cite class="reviews__author-name"><strong>Анастасия Красильникова</strong> @misssssiskras</cite>
           </blockquote>
-          <button class="reviews__prev" type="button" aria-label="Предыдущий отзыв">
+          <button class="reviews__prev button" type="button" aria-label="Предыдущий отзыв">
             <!--стрелка влево-->
           </button>
-          <button class="reviews__next" type="button" aria-label="Следующий отзыв">
+          <button class="reviews__next button" type="button" aria-label="Следующий отзыв">
             <!--стрелка вправо-->
           </button>
-          <a class="reviews__write button" href="#">Написать</a>
+          <a class="reviews__write-button button" href="#">Написать</a>
         </div>
       </section>
       <section class="contacts">
         <h2 class="contacts__title">Контакты</h2>
-        <table class="contacts__list features-list">
-          <tr>
-            <td class="features-list__item">e-mail:</td>
-            <td class="features-list__item">
-              <a href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
-            </td>
-          </tr>
-          <tr>
-            <td class="features-list__item">адрес:</td>
-            <td class="features-list__item">
-              <p class="address">г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</p>
-            </td>
-          </tr>
-        </table>
+        <ul class="contacts__list-features features-list">
+          <li class="features-list__item">
+            <p>e-mail:</p>
+          </li>
+          <li class="features-list__item">
+            <p>адрес:</p>
+          </li>
+        </ul>
+        <ul class="contacts__list-values values-list">
+          <li class="values-list__item">
+            <a href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
+          </li>
+          <li class="values-list__item">
+            <address>г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</address>
+          </li>
+        </ul>
         <div class="contacts__wrapper">
           <img class="contacts__map" src="img/map-mobile.png" width="322" height="457" alt="Интернет-магазин «Мишка» на карте">
-          <a class="contacts__write button" href="#">Напишите нам</a>
+          <a class="contacts__write-button button" href="#">Напишите нам</a>
         </div>
       </section>
     </main>

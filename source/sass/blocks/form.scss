@@ -1,0 +1,29 @@
+.form fieldset {
+  @include reset-fieldset;
+}
+
+.form__title {
+  color: $tiffany-light;
+  line-height: 16px;
+}
+
+.form__phone input::placeholder,
+.form__mail input::placeholder,
+.form__wishes textarea::placeholder {
+  line-height: 18px;
+  font-style: normal;
+  color: #444444;
+}
+
+.form__wishes p {
+  @include reset-text;
+
+  font-size: 13px;
+  font-style: normal;
+  line-height: 16px;
+  color: #444444;
+}
+
+.form__button {
+  line-height: 16px;
+}
