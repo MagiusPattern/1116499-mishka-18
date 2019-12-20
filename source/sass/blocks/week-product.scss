@@ -1,0 +1,30 @@
+.week-product__name {
+  @include h2;
+}
+
+.week-product p {
+  @include reset-text;
+}
+
+.week-product__status {
+  color: $tiffany-light;
+  line-height: 20px;
+}
+
+.week-product__description {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #444444;
+}
+
+.features-table td {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.week-product__price {
+  color: #444444;
+  line-height: 24px;
+}

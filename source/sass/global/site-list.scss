@@ -1,0 +1,16 @@
+.site-list {
+  @include reset-list;
+
+  line-height: 24px;
+}
+
+.site-list__item {
+  &--active,
+  &:active {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.6);
+  }
+}

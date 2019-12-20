@@ -1,0 +1,7 @@
+.filters p {
+  @include reset-text;
+
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+}

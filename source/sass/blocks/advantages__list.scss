@@ -1,0 +1,9 @@
+.advantages__list {
+  @include reset-list;
+
+  line-height: 20px;
+}
+
+.advantages__description {
+  @include reset-text;
+}

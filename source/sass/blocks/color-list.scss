@@ -1,0 +1,7 @@
+.color-list {
+  @include reset-list;
+}
+
+.color-list__item label {
+  line-height: 18px;
+}

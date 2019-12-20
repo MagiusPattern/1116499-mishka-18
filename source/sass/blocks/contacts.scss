@@ -1,0 +1,23 @@
+.contacts__title {
+  font-size: 18px;
+}
+
+.features-list,
+.values-list {
+  @include reset-list;
+}
+
+.features-list__item,
+.values-list__item {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.contacts__wrapper {
+  background-color: #dfdfdf;
+  /*background-image*/
+}
+
+.contacts__write-button {
+  font-size: 18px;
+}

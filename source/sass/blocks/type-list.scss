@@ -1,0 +1,7 @@
+.type-list {
+  @include reset-list;
+}
+
+.type-list__item label {
+  line-height: 18px;
+}
