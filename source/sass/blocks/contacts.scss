@@ -2,15 +2,32 @@
   font-size: 18px;
 }
 
+.contacts__info {
+  display: flex;
+}
+
 .features-list,
 .values-list {
   @include reset-list;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .features-list__item,
 .values-list__item {
   font-size: 15px;
   font-weight: 400;
+}
+
+.features-list {
+  width: 61px;
+  margin-left: 28px;
+  margin-right: 17px;
+}
+
+.values-list {
+  margin-right: 28px;
 }
 
 .contacts__wrapper {
@@ -20,4 +37,6 @@
 
 .contacts__write-button {
   font-size: 18px;
+  margin: 31px 30px;
+  width: 260px;
 }
